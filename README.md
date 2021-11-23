@@ -16,9 +16,13 @@ spark-worker-4|9094
 oracle-xe|1521
 
 # Oracle-XE connect setting
+
 hostname: localhost
+
 port: 1521
+
 username: system
+
 password: oracle
 
 # Installation
