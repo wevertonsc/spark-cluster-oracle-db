@@ -15,6 +15,12 @@ spark-worker-3|9093
 spark-worker-4|9094
 oracle-xe|1521
 
+# Oracle-XE connect setting
+hostname: localhost
+port: 1521
+username: system
+password: oracle
+
 # Installation
 
 The following steps will make you run your spark cluster's containers.
@@ -29,7 +35,7 @@ The following steps will make you run your spark cluster's containers.
 
 
 ```sh
-docker build -t cluster-apache-spark:3.2.2 .
+docker build -t cluster-apache-spark:3.2.0 .
 ```
 
 ## Run the docker-compose
